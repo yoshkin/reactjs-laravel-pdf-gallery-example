@@ -1,0 +1,34 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//React Notifications
+@import '~react-notifications/lib/notifications.css';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.hidden { display: none}
+.modal-show { display: block}
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modal-dialog,
+.modal-content {
+  height: 95%;
+}
+.modal-body {
+  height: 95%;
+}
+.pdf-object {
+  width: 100%;
+  height: 100%;
+}
+.documentsList img {border: 1px solid lightgray;}
